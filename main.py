@@ -7,6 +7,3 @@ def lambda_handler(event, context):
         'body': json.dumps('Hello world')
     }
 
-
-if __name__ == '__main__':
-    lambda_handler()
